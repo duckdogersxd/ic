@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    color: ##171F27;
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #62c9c3;
+    background-image: url('img/perfil.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex table-column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 250px 112px 0;
+    align-items: center;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.imagem-perfil{
+    max-width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    float: right;
+    display: block;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.social-media{
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    
+}
+.social-media a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid hsl(36, 100%, 90%);
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: .5s ease-in-out;
+}
+a:hover{
+    background-color: white;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #62c9c3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex table-column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 150px 112px;
+    align-items: center;
+}
+.paragrafos{
+    margin-bottom: 50px;
+}
+.paragrafos h1{
+    font-size: 35px;
+}
+footer{
+    height: 50vh;
+    width: 100vw;
+    background-color: #62c9c3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex table-column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 100px 112px;
+    align-items: center;
+}
