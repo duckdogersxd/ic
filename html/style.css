@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    font-family:'Rubik', sans-serif;;
+    color: #171F27;
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    height: 100%;
+    width: 100%;
+    background-color: #62c9c3;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 250px 112px 0;
+    align-items: center;
+}
+
+img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10%;
+  margin-left: auto;
+  max-width: 30vw;
+  max-height: 30vh;
+}
+h1{
+    font-size: 3.5vw;
+    margin-top: 0;
+    letter-spacing: 4px;
+}
+h2{
+    font-size: 2.5vw;
+    letter-spacing: 4px;
+}
+.social-media{
+    align-items: center;
+    margin-top: 2rem;
+    display: flex;
+}
+.social-media a{
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: black;
+    padding: 1rem 4rem;
+    margin-right: 5px;
+    border: 2px solid hsl(36, 100%, 90%);
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+a:hover{
+    background-color: white;
+}
+.container{
+    height: 100%;
+    width: 100vw;
+    background-color: #62c9c3;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 150px 112px;
+    align-items: center;
+}
+.paragrafos{
+    margin-bottom: 50px;
+}
+.paragrafos h1{
+    font-size: 3vw;
+}
+.paragrafos h2{
+    font-size: 2vw;
+}
